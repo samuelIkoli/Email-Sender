@@ -1,0 +1,24 @@
+{
+  "name": "email-sender",
+  "version": "1.0.0",
+  "description": "An email senderusing node and nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelIkoli/Email-Sender.git"
+  },
+  "author": "Samuel Ikoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelIkoli/Email-Sender/issues"
+  },
+  "homepage": "https://github.com/samuelIkoli/Email-Sender#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.7"
+  }
+}
