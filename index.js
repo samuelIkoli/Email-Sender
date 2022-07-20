@@ -19,14 +19,14 @@ let transporter = nodemailer.createTransport({
 
 let mailOptions = {
     from: 'ayibanimiikoli@gmail.com',
-    to: 'ayibanimi_ikoli@yahoo.com',
+    to: 'ayibanimiikoli@gmail.com',
     subject: 'Nodemailer Project',
-    text: 'Hi from your nodemailer project'
+    text: 'Nodemailer Project is being tested'
 };  
 
 transporter.sendMail(mailOptions, function(err, data) {
       if (err) {
-        console.log("Error " + err);
+        console.log(err);
       } else {
         console.log("Email sent successfully");
       }
